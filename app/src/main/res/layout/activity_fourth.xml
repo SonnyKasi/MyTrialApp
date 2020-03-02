@@ -7,7 +7,7 @@
     android:background="#2A786C"
     android:text="MyTrialApp"
     android:theme="@style/TextAppearance.Compat.Notification.Title"
-    tools:context=".Second2Activity">
+    tools:context=".FourthActivity">
 
     <Button
         android:id="@+id/button"
@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
-        android:text="OpenActivity3" />
+        android:text="OpenActivity5" />
 
     <TextView
         android:id="@+id/textView"
@@ -24,8 +24,8 @@
         android:layout_alignTop="@id/button"
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="-181dp"
-        android:text="Activity2" />
+        android:layout_marginTop="-174dp"
+        android:text="Activity4" />
 
     <TextView
         android:id="@+id/textView5"
@@ -50,3 +50,4 @@
         android:ems="10"
         android:inputType="textPersonName" />
 </RelativeLayout>
+

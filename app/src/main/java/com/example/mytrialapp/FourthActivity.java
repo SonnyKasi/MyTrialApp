@@ -8,9 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class Second2Activity extends AppCompatActivity {
-
-    String description = "Passing Messages Activity";
+public class FourthActivity extends AppCompatActivity {
+    String description = "Passing Messages from Activity 3 ";
     EditText editText;
     Button btn = (Button) findViewById(R.id.button);
 
@@ -24,7 +23,7 @@ public class Second2Activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String namevalue = editText.getText().toString();
-                Intent intent = new Intent(Second2Activity.this,ThirdActivity.class);
+                Intent intent = new Intent(FourthActivity.this, FirthActivity.class);
                 intent.putExtra("Name",namevalue);
                 startActivity(intent);
             }
